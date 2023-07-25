@@ -10,5 +10,5 @@ env
 check = true
 in-place = true
 remove-unused-variables = true
-remove-duplicates-keys = false
 remove-all-unused-imports = true
+# remove-duplicates-keys = true

@@ -2,9 +2,12 @@ import random
 
 
 def starting_point():
-    while True:
+    looper = 0
+
+    while looper < 10:
         flipper = random.randint(0, 100)
         print(f"Randomized Value: {100 * flipper}")
+        looper += 1
 
 
 if __name__ == "__main__":

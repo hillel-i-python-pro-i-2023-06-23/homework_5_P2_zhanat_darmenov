@@ -3,7 +3,6 @@
 d-homework-i-run:
 	@make d-stop &&\
 	make init-configs &&\
-	make create-image &&\
 	make d-run
 
 
