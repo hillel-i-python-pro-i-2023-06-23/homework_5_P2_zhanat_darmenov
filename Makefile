@@ -53,10 +53,3 @@ pre-commit-run:
 .PHONY: pre-commit-run-all
 pre-commit-run-all:
 	@pre-commit run --all-files
-
-
-
-
-
-
-

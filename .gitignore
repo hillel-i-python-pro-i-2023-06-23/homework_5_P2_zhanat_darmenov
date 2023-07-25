@@ -160,9 +160,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-.dockerignore
+
 docker-compose.override.yml
-docker-compose.override-example.yml
 
 HW5_venv/
 
