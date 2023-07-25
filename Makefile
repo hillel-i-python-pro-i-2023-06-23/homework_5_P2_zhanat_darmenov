@@ -22,11 +22,11 @@ proj-i-run:
 # Docker Preparation:
 .PHONY: init-configs
 init-configs:
-	@cp ./docker-compose.override.yml docker-compose.override-example.yml
+	@cp ./docker-compose.override-example.yml docker-compose.override.yml
 
 .PHONY: create-image
 create-image:
-	@docker build -t getting-started .
+	@docker build --tag getting-started .
 
 .PHONY: d-run
 d-run:

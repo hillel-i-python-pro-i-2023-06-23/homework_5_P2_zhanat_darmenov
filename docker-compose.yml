@@ -1,4 +1,4 @@
 
 services:
   app:
-    image: getting-started
+    build: .
