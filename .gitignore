@@ -161,10 +161,8 @@ cython_debug/
 #.idea/
 
 .dockerignore
-docker-compose.yml
 docker-compose.override.yml
 docker-compose.override-example.yml
 
 HW5_venv/
-
 
